@@ -32,8 +32,7 @@ class ExtendedVerticalDragGestureRecognizer
       'Migrate to supportedDevices. '
       'This feature was deprecated after v2.3.0-1.0.pre.',
     )
-        super.kind,
-    super.supportedDevices,
+        super.supportedDevices,
     super.canHorizontalOrVerticalDrag,
   });
 
@@ -84,8 +83,7 @@ class ExtendedHorizontalDragGestureRecognizer
       'Migrate to supportedDevices. '
       'This feature was deprecated after v2.3.0-1.0.pre.',
     )
-        super.kind,
-    super.supportedDevices,
+        super.supportedDevices,
     super.canHorizontalOrVerticalDrag,
   });
 
@@ -148,8 +146,7 @@ abstract class ExtendedDragGestureRecognizer
       'Migrate to supportedDevices. '
       'This feature was deprecated after v2.3.0-1.0.pre.',
     )
-        super.kind,
-    this.dragStartBehavior = DragStartBehavior.start,
+        this.dragStartBehavior = DragStartBehavior.start,
     this.velocityTrackerBuilder = _defaultBuilder,
     super.supportedDevices,
     this.canHorizontalOrVerticalDrag,
