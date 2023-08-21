@@ -466,7 +466,7 @@ class ExtendedImage extends StatefulWidget {
     this.loadStateChanged,
     this.shape,
     this.border,
-    this.borderRadius,
+    this.borderRadius = BorderRadius.zero,
     this.clipBehavior = Clip.antiAlias,
     this.enableLoadState = true,
     this.beforePaintImage,
@@ -622,7 +622,7 @@ class ExtendedImage extends StatefulWidget {
   ///
   /// Applies only to boxes with rectangular shapes; ignored if [shape] is not
   /// [BoxShape.rectangle].
-  final BorderRadius? borderRadius;
+  final BorderRadius borderRadius;
 
   /// custom load state widget if you want
   final LoadStateChanged? loadStateChanged;
